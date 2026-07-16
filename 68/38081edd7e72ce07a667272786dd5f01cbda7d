@@ -1,0 +1,38 @@
+app/(marketing)/page.tsx
+  h_ccbfe03d15f891 1,7-16
+app/globals.css
+  h_ccbfe03d15f891 5-7
+app/(platform)/protected/page.tsx
+  h_ccbfe03d15f891 1-24
+app/(marketing)/_components/footer.tsx
+  h_ccbfe03d15f891 1-23
+app/(platform)/(clerk)/sign-up/[[...sign-up]]/page.tsx
+  h_ccbfe03d15f891 1-6
+config/site.ts
+  h_ccbfe03d15f891 1-4
+app/layout.tsx
+  h_ccbfe03d15f891 1-2,4-5,7-9,12-13,17-18,22-34,46-47,50-51,54
+app/(platform)/(clerk)/layout.tsx
+  h_ccbfe03d15f891 1-9
+app/(marketing)/_components/navbar.tsx
+  h_ccbfe03d15f891 1-23
+app/(platform)/(clerk)/sign-in/[[...sign-in]]/page.tsx
+  h_ccbfe03d15f891 1-5
+components/logo.tsx
+  h_ccbfe03d15f891 1-28
+app/(marketing)/layout.tsx
+  h_ccbfe03d15f891 1-2,6,8-10,14-15
+app/(platform)/layout.tsx
+  h_ccbfe03d15f891 1-7
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "6838081edd7e72ce07a667272786dd5f01cbda7d",
+  "prompts": {},
+  "humans": {
+    "h_ccbfe03d15f891": {
+      "author": "Aryan Patel <aryanpatel6215@gmail.com>"
+    }
+  }
+}
