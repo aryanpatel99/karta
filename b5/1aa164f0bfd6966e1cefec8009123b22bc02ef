@@ -1,0 +1,26 @@
+app/(platform)/(dashboard)/_components/navbar.tsx
+  h_ccbfe03d15f891 1-37
+app/(platform)/(dashboard)/layout.tsx
+  h_ccbfe03d15f891 1-16
+components/logo.tsx
+  h_ccbfe03d15f891 14-16
+proxy.ts
+  h_ccbfe03d15f891 2,5-24
+app/(marketing)/page.tsx
+  h_ccbfe03d15f891 1,3,7-20
+app/(platform)/(clerk)/select-org/[[...select-org]]/page.tsx
+  h_ccbfe03d15f891 1-11
+app/(platform)/(dashboard)/organization/[organizationId]/page.tsx
+  h_ccbfe03d15f891 1-19
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "b51aa164f0bfd6966e1cefec8009123b22bc02ef",
+  "prompts": {},
+  "humans": {
+    "h_ccbfe03d15f891": {
+      "author": "Aryan Patel <aryanpatel6215@gmail.com>"
+    }
+  }
+}
