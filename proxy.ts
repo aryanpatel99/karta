@@ -1,9 +1,29 @@
-import { clerkMiddleware, createRouteMatcher } from '@clerk/nextjs/server';
-
-const isPublicRoute = createRouteMatcher(['/', '/sign-in(.*)', '/sign-up(.*)']);
+import { clerkMiddleware } from '@clerk/nextjs/server';
+import { NextResponse } from 'next/server';
 
 export default clerkMiddleware(async (auth, request) => {
-    if (!isPublicRoute(request)) {
+    const { userId, orgId } = await auth();
+    const { pathname } = request.nextUrl;
+
+    // defining the public routes
+    const isPublicRoute = 
+        pathname === "/" || 
+        pathname.startsWith("/sign-in") ||
+        pathname.startsWith("/sign-up");
+
+    // if the user is logged in and trying to access the landing page ('/'),
+    // redirect them to their organization or the select-org page
+    if (userId && pathname === '/') {
+        let path = '/select-org';
+        if (orgId) {
+            path = `/organization/${orgId}`;
+        }
+        const orgSelection = new URL(path, request.url);
+        return NextResponse.redirect(orgSelection);
+    }
+
+    // protect the non public routes
+    if (!isPublicRoute) {
         await auth.protect();
     }
 });

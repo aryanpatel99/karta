@@ -1,8 +1,23 @@
+import { auth } from '@clerk/nextjs/server';
 import Link from 'next/link';
+import { redirect } from 'next/navigation';
 
 import { Button } from '@/components/ui/button';
 
-const MarketingPage = () => {
+const MarketingPage = async () => {
+
+    // Doing this in the middleware is more efficient.
+
+    // const { userId, orgId } = await auth();
+
+    // if (userId) {
+    //     if (orgId) {
+    //         redirect(`/organization/${orgId}`);
+    //     } else {
+    //         redirect('/select-org');
+    //     }
+    // }
+    
     return (
         <div className="flex h-full flex-col">
             <div className="flex flex-col items-center justify-center">

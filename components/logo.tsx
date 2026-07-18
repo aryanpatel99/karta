@@ -11,9 +11,9 @@ export const Logo = ({
     className?: string;
 }) => {
     const sizeMap = {
-        sm: 'w-6 h-6 text-xl',
-        md: 'w-10 h-10 text-3xl',
-        lg: 'w-14 h-14 text-4xl',
+        sm: 'text-xl',
+        md: 'text-3xl',
+        lg: 'text-4xl',
     };
     return (
         <Link href={'/'}>
