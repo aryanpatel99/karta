@@ -59,7 +59,15 @@ export const Sidebar = ({
     if (!isLoadedOrg || !isLoadedOrgList || userMemberships.isLoading) {
         return (
             <>
-                <Skeleton className="h-full" />
+                <div className="flex items-center justify-between mb-2 p-3">
+                    <Skeleton className="h-8 w-[50%]" />
+                    <Skeleton className="h-8 w-8" />
+                </div>
+                <div className="space-y-2">
+                    <NavItem.Skeleton/>
+                    <NavItem.Skeleton/>
+                    <NavItem.Skeleton/>
+                </div>
             </>
         )
     }
@@ -102,8 +110,6 @@ export const Sidebar = ({
                         organization={organization}
                     />
                 ))}
-
-
             </Accordion>
         </>
     )
