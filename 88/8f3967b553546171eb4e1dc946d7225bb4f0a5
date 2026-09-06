@@ -1,0 +1,20 @@
+app/(platform)/(dashboard)/organization/[organizationId]/settings/page.tsx
+  h_ccbfe03d15f891 1-25
+"app/(platform)/(dashboard)/_components/mobile-sidebar 2.tsx"
+  h_ccbfe03d15f891 1-20
+"components/ui/sheet 2.tsx"
+  h_ccbfe03d15f891 1-138
+"hooks/use-mobile-sidebar 2.ts"
+  h_ccbfe03d15f891 1-16
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.2",
+  "base_commit_sha": "888f3967b553546171eb4e1dc946d7225bb4f0a5",
+  "prompts": {},
+  "humans": {
+    "h_ccbfe03d15f891": {
+      "author": "Aryan Patel <aryanpatel6215@gmail.com>"
+    }
+  }
+}
