@@ -1,3 +1,5 @@
+import { create } from "@/actions/create-board"
+import { Button } from "@/components/ui/button"
 import { auth } from "@clerk/nextjs/server"
 
 const OrganizationIdPage = async()=>{
@@ -6,11 +8,10 @@ const OrganizationIdPage = async()=>{
     
     return (
         <div>
-            Organization Id Page 
-            <br />
-            {userId} 
-            <br />
-            OrgId : {orgId}
+            <form action={create}>
+                <input type="text" placeholder="text here" name="title" className="border border-black" />
+                <Button type="submit">Create</Button>
+            </form>
         </div>
     )
 }
