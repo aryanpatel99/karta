@@ -1,0 +1,64 @@
+app/(platform)/(dashboard)/organization/[organizationId]/billing/page.tsx
+  h_ccbfe03d15f891 1-9
+src/prisma/contract.prisma
+  h_ccbfe03d15f891 1-8
+actions/create-board/schema.ts
+  h_ccbfe03d15f891 1-12
+actions/create-board/index.ts
+  h_ccbfe03d15f891 1-44
+app/(platform)/(dashboard)/organization/[organizationId]/page.tsx
+  h_ccbfe03d15f891 1-2,11-14
+app/(platform)/(dashboard)/organization/[organizationId]/activity/page.tsx
+  h_ccbfe03d15f891 1-8
+hooks/use-actions.ts
+  h_ccbfe03d15f891 1-67
+lib/create-safe-action.ts
+  h_ccbfe03d15f891 1-27
+actions/create-board/types.ts
+  h_ccbfe03d15f891 1-8
+actions/create-board.ts
+  h_ccbfe03d15f891 1-11
+.gitattributes
+  h_ccbfe03d15f891 1-6
+.gitignore
+  h_ccbfe03d15f891 46-49
+migrations/app/refs/db.json
+  h_ccbfe03d15f891 1-4
+migrations/snapshots/054b50ed9ca672cda8ad9bad026a7afd793e812ec4defcd0a8574af5a72527bc/contract.d.ts
+  h_ccbfe03d15f891 1-393
+migrations/snapshots/054b50ed9ca672cda8ad9bad026a7afd793e812ec4defcd0a8574af5a72527bc/contract.json
+  h_ccbfe03d15f891 1
+migrations/snapshots/1e8412e162dbbe69f4bb3bf8d07f0280ae67eaab15c34dcf201e67468315428d/contract.d.ts
+  h_ccbfe03d15f891 1-631
+migrations/snapshots/1e8412e162dbbe69f4bb3bf8d07f0280ae67eaab15c34dcf201e67468315428d/contract.json
+  h_ccbfe03d15f891 1
+package-lock.json
+  h_ccbfe03d15f891 2-915,917-24388,24390
+package.json
+  h_ccbfe03d15f891 2-54
+prisma-next.md
+  h_ccbfe03d15f891 1-106
+prisma.config.ts
+  h_ccbfe03d15f891 1-12
+"src/prisma/contract 2.json"
+  h_ccbfe03d15f891 1-405
+src/prisma/contract.d.ts
+  h_ccbfe03d15f891 1-393
+src/prisma/contract.json
+  h_ccbfe03d15f891 1-129
+src/prisma/db.ts
+  h_ccbfe03d15f891 1-12
+tsconfig.json
+  h_ccbfe03d15f891 10,23-26
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "18d22d2960bbbd66edab6995318bf5dbb0ad33b9",
+  "prompts": {},
+  "humans": {
+    "h_ccbfe03d15f891": {
+      "author": "Aryan Patel <aryanpatel6215@gmail.com>"
+    }
+  }
+}
