@@ -44,3 +44,6 @@ next-env.d.ts
 /.clerk/
 
 architecture.tldr
+node_modules/
+dist/
+.env
