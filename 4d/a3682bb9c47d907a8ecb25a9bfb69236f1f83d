@@ -1,0 +1,24 @@
+README.md
+  s_a33cd847df4d9c::t_1d122392aa1db7 1,3,5,7-40,43-54,56-58,60,62,64-67,69,71-73,75-111,113,115
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "4da3682bb9c47d907a8ecb25a9bfb69236f1f83d",
+  "prompts": {},
+  "humans": {
+    "h_ccbfe03d15f891": {
+      "author": "Aryan Patel <aryanpatel6215@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_a33cd847df4d9c": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0bd43-751e-7390-bc27-8230f3dec1a3",
+        "model": "gpt-5.6-terra"
+      },
+      "human_author": "Aryan Patel <aryanpatel6215@gmail.com>"
+    }
+  }
+}
