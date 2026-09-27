@@ -1,11 +1,5 @@
 "use server"
 
-
-
-
-
-
-
 import { auth } from "@clerk/nextjs/server"
 import { InputType, ReturnType } from "./types"
 import { db } from "@/src/prisma/db"
@@ -29,6 +23,8 @@ const handler = async(data:InputType):Promise<ReturnType>=>{
         board = await db.orm.public.Board.create({
             title:title,
         })
+
+        console.log("data sent")
     }
     catch(error){
         return {error:"Failed to create board"}

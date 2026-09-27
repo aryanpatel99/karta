@@ -1,17 +1,17 @@
-import { create } from "@/actions/create-board"
-import { Button } from "@/components/ui/button"
-import { auth } from "@clerk/nextjs/server"
+import { BoardList } from "./_components/board-list"
+import { Info } from "./_components/info"
+import { Separator } from "@/components/ui/separator"
 
 const OrganizationIdPage = async()=>{
-    const {userId , orgId} = await auth()
-
     
     return (
-        <div>
-            <form action={create}>
-                <input type="text" placeholder="text here" name="title" className="border border-black" />
-                <Button type="submit">Create</Button>
-            </form>
+        <div className="mb-20 w-full">
+            {/* check the subscription here */}
+            <Info/>
+            <Separator className="my-4"/>
+            <div className="px-2 md:px-4">
+                <BoardList/>
+            </div>
         </div>
     )
 }

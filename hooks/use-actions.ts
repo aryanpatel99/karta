@@ -34,7 +34,8 @@ export const useAction = <TInput, TOutput>(
                 if(!result){
                     return 
                 }
-
+            
+                //update the field errors regardless of success or failure
                 setFieldErrors(result.fieldErrors)
 
                 if(result.error){
