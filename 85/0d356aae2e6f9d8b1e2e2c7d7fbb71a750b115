@@ -1,0 +1,44 @@
+components/ui/button.tsx
+  h_ccbfe03d15f891 20-22
+components/form/form-error.tsx
+  h_ccbfe03d15f891 1-34
+app/(platform)/(dashboard)/organization/[organizationId]/_components/board-list.tsx
+  h_ccbfe03d15f891 1-30
+hooks/use-actions.ts
+  h_ccbfe03d15f891 37-38
+actions/create-board/schema.ts
+  h_ccbfe03d15f891 11
+actions/create-board/index.ts
+  h_ccbfe03d15f891 26-27
+app/(platform)/(dashboard)/organization/[organizationId]/_components/info.tsx
+  h_ccbfe03d15f891 1-69
+app/(platform)/(dashboard)/organization/[organizationId]/page.tsx
+  h_ccbfe03d15f891 1-3,8-14
+components/hint.tsx
+  h_ccbfe03d15f891 1-33
+components/form/form-input.tsx
+  h_ccbfe03d15f891 1-73
+components/form/form-submit.tsx
+  h_ccbfe03d15f891 1-34
+components/form/form-popover.tsx
+  h_ccbfe03d15f891 1-7
+components/ui/input.tsx
+  h_ccbfe03d15f891 1-19
+components/ui/label.tsx
+  h_ccbfe03d15f891 1-19
+components/ui/popover.tsx
+  h_ccbfe03d15f891 1-89
+components/ui/tooltip.tsx
+  h_ccbfe03d15f891 1-65
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "850d356aae2e6f9d8b1e2e2c7d7fbb71a750b115",
+  "prompts": {},
+  "humans": {
+    "h_ccbfe03d15f891": {
+      "author": "Aryan Patel <aryanpatel6215@gmail.com>"
+    }
+  }
+}
