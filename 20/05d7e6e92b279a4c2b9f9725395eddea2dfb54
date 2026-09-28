@@ -1,0 +1,28 @@
+app/(platform)/(dashboard)/organization/[organizationId]/_components/board-list.tsx
+  h_ccbfe03d15f891 1,17,28
+app/(platform)/layout.tsx
+  h_ccbfe03d15f891 2,5-8
+components/ui/popover.tsx
+  h_ccbfe03d15f891 15-18,93,95-96
+components/form/form-popover.tsx
+  h_ccbfe03d15f891 3-43,45-59,61-66
+components/ui/button.tsx
+  h_ccbfe03d15f891 20
+components/ui/sonner.tsx
+  h_ccbfe03d15f891 1-50
+package-lock.json
+  h_ccbfe03d15f891 23,27,17619-17628,22328-22343
+package.json
+  h_ccbfe03d15f891 30,34
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "2005d7e6e92b279a4c2b9f9725395eddea2dfb54",
+  "prompts": {},
+  "humans": {
+    "h_ccbfe03d15f891": {
+      "author": "Aryan Patel <aryanpatel6215@gmail.com>"
+    }
+  }
+}
