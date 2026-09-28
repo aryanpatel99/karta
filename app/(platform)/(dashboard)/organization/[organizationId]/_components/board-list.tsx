@@ -1,3 +1,4 @@
+import { FormPopover } from "@/components/form/form-popover"
 import { Hint } from "@/components/hint"
 import { Button } from "@/components/ui/button"
 import { User } from "@hugeicons/core-free-icons"
@@ -13,6 +14,7 @@ export const BoardList = ()=>{
 
             <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
                 {/* boards */}
+                <FormPopover align="start" side="right" sideOffset={10}>
                 <div role="button" className="relative aspect-video bg-gray-200 rounded-md flex flex-col items-center justify-center gap-y-2 hover:opacity-75 transition">
                     <IconPlus className="h-6 w-6 stroke-1.5"/>
                     <p className="font-semibold">New Board</p>
@@ -23,6 +25,7 @@ export const BoardList = ()=>{
                         <IconHelp className="absolute bottom-2 right-2 w-3.5 h-3.5"/>
                     </Hint>
                 </div>
+                </FormPopover>
             </div>
 
         </div>
