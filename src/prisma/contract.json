@@ -15,7 +15,56 @@
         "models": {
           "Board": {
             "fields": {
+              "createdAt": {
+                "nullable": false,
+                "type": {
+                  "codecId": "pg/timestamptz-temporal@1",
+                  "kind": "scalar"
+                }
+              },
               "id": {
+                "nullable": false,
+                "type": {
+                  "codecId": "pg/text@1",
+                  "kind": "scalar"
+                }
+              },
+              "imageFullUrl": {
+                "nullable": false,
+                "type": {
+                  "codecId": "pg/text@1",
+                  "kind": "scalar"
+                }
+              },
+              "imageId": {
+                "nullable": false,
+                "type": {
+                  "codecId": "pg/text@1",
+                  "kind": "scalar"
+                }
+              },
+              "imageLinkHtml": {
+                "nullable": false,
+                "type": {
+                  "codecId": "pg/text@1",
+                  "kind": "scalar"
+                }
+              },
+              "imageThumbUrl": {
+                "nullable": false,
+                "type": {
+                  "codecId": "pg/text@1",
+                  "kind": "scalar"
+                }
+              },
+              "imageUserName": {
+                "nullable": false,
+                "type": {
+                  "codecId": "pg/text@1",
+                  "kind": "scalar"
+                }
+              },
+              "orgId": {
                 "nullable": false,
                 "type": {
                   "codecId": "pg/text@1",
@@ -28,16 +77,47 @@
                   "codecId": "pg/text@1",
                   "kind": "scalar"
                 }
+              },
+              "updatedAt": {
+                "nullable": false,
+                "type": {
+                  "codecId": "pg/timestamptz-temporal@1",
+                  "kind": "scalar"
+                }
               }
             },
             "relations": {},
             "storage": {
               "fields": {
+                "createdAt": {
+                  "column": "createdAt"
+                },
                 "id": {
                   "column": "id"
                 },
+                "imageFullUrl": {
+                  "column": "imageFullUrl"
+                },
+                "imageId": {
+                  "column": "imageId"
+                },
+                "imageLinkHtml": {
+                  "column": "imageLinkHtml"
+                },
+                "imageThumbUrl": {
+                  "column": "imageThumbUrl"
+                },
+                "imageUserName": {
+                  "column": "imageUserName"
+                },
+                "orgId": {
+                  "column": "orgId"
+                },
                 "title": {
                   "column": "title"
+                },
+                "updatedAt": {
+                  "column": "updatedAt"
                 }
               },
               "namespaceId": "public",
@@ -55,7 +135,46 @@
           "table": {
             "board": {
               "columns": {
+                "createdAt": {
+                  "codecId": "pg/timestamptz-temporal@1",
+                  "default": {
+                    "expression": "now()",
+                    "kind": "function"
+                  },
+                  "nativeType": "timestamptz",
+                  "nullable": false
+                },
                 "id": {
+                  "codecId": "pg/text@1",
+                  "nativeType": "text",
+                  "nullable": false
+                },
+                "imageFullUrl": {
+                  "codecId": "pg/text@1",
+                  "nativeType": "text",
+                  "nullable": false
+                },
+                "imageId": {
+                  "codecId": "pg/text@1",
+                  "nativeType": "text",
+                  "nullable": false
+                },
+                "imageLinkHtml": {
+                  "codecId": "pg/text@1",
+                  "nativeType": "text",
+                  "nullable": false
+                },
+                "imageThumbUrl": {
+                  "codecId": "pg/text@1",
+                  "nativeType": "text",
+                  "nullable": false
+                },
+                "imageUserName": {
+                  "codecId": "pg/text@1",
+                  "nativeType": "text",
+                  "nullable": false
+                },
+                "orgId": {
                   "codecId": "pg/text@1",
                   "nativeType": "text",
                   "nullable": false
@@ -63,6 +182,15 @@
                 "title": {
                   "codecId": "pg/text@1",
                   "nativeType": "text",
+                  "nullable": false
+                },
+                "updatedAt": {
+                  "codecId": "pg/timestamptz-temporal@1",
+                  "default": {
+                    "expression": "now()",
+                    "kind": "function"
+                  },
+                  "nativeType": "timestamptz",
                   "nullable": false
                 }
               },
@@ -73,7 +201,13 @@
                   "id"
                 ]
               },
-              "uniques": []
+              "uniques": [
+                {
+                  "columns": [
+                    "imageId"
+                  ]
+                }
+              ]
             }
           }
         },
@@ -81,7 +215,7 @@
         "kind": "postgres-schema"
       }
     },
-    "storageHash": "054b50ed9ca672cda8ad9bad026a7afd793e812ec4defcd0a8574af5a72527bc"
+    "storageHash": "682ad0b5de802f72d4a4a7b2619fe28139b9e1028a796b20fe98b40d6b3f853c"
   },
   "execution": {
     "executionHash": "6b17c097ad2650bcdf34000399a97981fec2f4f897e4b35b185de00289be73ec",
