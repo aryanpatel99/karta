@@ -9,22 +9,32 @@ import { CreateBoard } from "./schema"
 
 const handler = async(data:InputType):Promise<ReturnType>=>{
 
-    const {userId} = await auth()
-    
-    if(!userId){
+    const {userId, orgId} = await auth()
+
+    if(!userId || !orgId){
         return {error:"Unauthorized"}
     }
 
-    const {title} = data
+    const {title, image} = data
+
+    const [imageId, imageThumbUrl, imageFullUrl, imageLinkHtml, imageUserName] = image.split("|")
+
+    if(!imageId || !imageThumbUrl || !imageFullUrl || !imageLinkHtml || !imageUserName){
+        return {error:"Missing image fields. Please select an image."}
+    }
 
     let board;
 
     try{
         board = await db.orm.public.Board.create({
-            title:title,
+            title,
+            orgId,
+            imageId,
+            imageThumbUrl,
+            imageFullUrl,
+            imageLinkHtml,
+            imageUserName,
         })
-
-        console.log("data sent")
     }
     catch(error){
         return {error:"Failed to create board"}

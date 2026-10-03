@@ -24,15 +24,11 @@ export const FormPopover = ({
     sideOffset =0
 }:FormPopoverProps) =>{
     const {execute, fieldErrors} = useAction(createBoard,{
-        onSuccess:(data)=>{
-            console.log(data);
+        onSuccess:()=>{
             toast.success("Board created successfully")
-            
         },
         onError:(error)=>{
-            console.log(error);
             toast.error(error)
-            
         }
     })
 
@@ -41,8 +37,7 @@ export const FormPopover = ({
         const title = formData.get("title") as string;
         const image = formData.get("image") as string;
 
-        console.log({image})
-        // execute({title})
+        execute({title, image})
     }
 
     return (
@@ -62,7 +57,7 @@ export const FormPopover = ({
                     <div className="space-y-4">
                         <FormPicker
                             id="image"
-                            errors={undefined} //check 1
+                            errors={fieldErrors}
                         />
                     <FormInput id="title" label="Board Title" className="text-xs" errors={fieldErrors}/>
 

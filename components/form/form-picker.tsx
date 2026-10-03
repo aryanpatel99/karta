@@ -1,7 +1,7 @@
 "use client"
 
+import { fetchUnsplashImages } from "@/actions/fetch-unsplash-images";
 import { defaultImages } from "@/constants/images";
-import { unsplash } from "@/lib/unsplash";
 import { cn } from "@/lib/utils";
 import { IconCheck, IconLoader } from "@tabler/icons-react";
 import Image from "next/image";
@@ -29,27 +29,16 @@ export const FormPicker = ({
 
         const fetchImages = async () => {
             try {
-                const { data, error } = await unsplash.GET("/photos/random", {
-                    params: {
-                        query: {
-                            collections: ["317099"],
-                            count: 9,
-                        }
-                    }
-                })
+                const data = await fetchUnsplashImages()
 
-                if (data && Array.isArray(data)) {
+                if (data) {
                     setImages(data)
-                } else {
-                    console.log("Something went wrong", error)
                 }
-            } catch (error) {
-                console.log("Something went wrong", error)
+            } catch {
                 setImages(defaultImages)
             } finally {
                 setIsLoading(false)
             }
-
         }
 
         fetchImages();
@@ -112,8 +101,8 @@ export const FormPicker = ({
                 ))}
 
             </div>
-                <FormError 
-                id="image"
+                <FormError
+                id={id}
                 errors={errors}
                 />
         </div>
