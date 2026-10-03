@@ -1,0 +1,43 @@
+lib/unsplash.ts
+  h_ccbfe03d15f891 1-7
+components/form/form-popover.tsx
+  h_ccbfe03d15f891 11,42-45,63-66
+app/(platform)/(dashboard)/organization/[organizationId]/_components/board-list.tsx
+  h_ccbfe03d15f891 1
+constants/images.ts
+  h_ccbfe03d15f891 1-1001
+next.config.ts
+  h_ccbfe03d15f891 9-12
+components/form/form-picker.tsx
+  h_ccbfe03d15f891 1-99,101-121
+  h_ccbfe03d15f891 100
+.gitignore
+  h_ccbfe03d15f891 50-53
+migrations/app/refs/db.json
+  h_ccbfe03d15f891 2
+migrations/snapshots/682ad0b5de802f72d4a4a7b2619fe28139b9e1028a796b20fe98b40d6b3f853c/contract.d.ts
+  h_ccbfe03d15f891 1-513
+migrations/snapshots/682ad0b5de802f72d4a4a7b2619fe28139b9e1028a796b20fe98b40d6b3f853c/contract.json
+  h_ccbfe03d15f891 1
+package-lock.json
+  h_ccbfe03d15f891 29,31,22984-23005,23591-23617
+package.json
+  h_ccbfe03d15f891 36,38
+src/prisma/contract.d.ts
+  h_ccbfe03d15f891 36,246,248-254,262,264-270,277,279-284,286,293,295-300,302,331-335,341-377,380,407-410,415-448,456,458-464
+src/prisma/contract.json
+  h_ccbfe03d15f891 18-24,32-73,80-86,92-94,98-115,118-120,138-146,152-181,186-194,204-210,218
+src/prisma/contract.prisma
+  h_ccbfe03d15f891 2-10,12-13
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "cb2d8aa80b7b55efb3ca72e3f8b00d5f9b4f48f3",
+  "prompts": {},
+  "humans": {
+    "h_ccbfe03d15f891": {
+      "author": "Aryan Patel <aryanpatel6215@gmail.com>"
+    }
+  }
+}
