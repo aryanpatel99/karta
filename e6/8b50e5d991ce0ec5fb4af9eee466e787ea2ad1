@@ -1,0 +1,41 @@
+lib/unsplash.ts
+  s_2de50c14a0e389::t_43392b87100509 4
+components/form/form-popover.tsx
+  s_2de50c14a0e389::t_a93cd15edd4cae 60
+  s_2de50c14a0e389::t_5d8ccdd3854c7d 27
+  s_2de50c14a0e389::t_b1f91c164a296e 40
+actions/create-board/index.ts
+  s_2de50c14a0e389::t_a0acfee9607f2e 12-14,18-24,30-36
+src/prisma/contract.prisma
+  s_2de50c14a0e389::t_63754a0f3751c3 6
+  s_2de50c14a0e389::t_cbb536592e0fbb 13
+actions/fetch-unsplash-images.ts
+  s_2de50c14a0e389::t_a5ed1ebe65412f 1-24
+actions/create-board/schema.ts
+  s_2de50c14a0e389::t_17a9bf5831a155 11
+components/form/form-picker.tsx
+  s_2de50c14a0e389::t_3ef4f30da84535 3
+  s_2de50c14a0e389::t_400c7f3981a8b1 32-34,37
+  s_2de50c14a0e389::t_6bf2fc3b210750 104-105
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "e68b50e5d991ce0ec5fb4af9eee466e787ea2ad1",
+  "prompts": {},
+  "humans": {
+    "h_ccbfe03d15f891": {
+      "author": "Aryan Patel <aryanpatel6215@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_2de50c14a0e389": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "46851428-f2a6-4e7f-bbcb-36760a386f51",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Aryan Patel <aryanpatel6215@gmail.com>"
+    }
+  }
+}
