@@ -1,8 +1,14 @@
 // use prisma-next
+model Board {
+  id            String   @id @default(uuid())
+  orgId         String
+  title         String
+  imageId       String
+  imageThumbUrl String
+  imageFullUrl  String
+  imageLinkHtml String
+  imageUserName String
 
-model Board{
-  id String @id @default(uuid())
-  title String 
-  
+  createdAt     DateTime @default(now())
+  updatedAt     temporal.updatedAtString()
 }
-
