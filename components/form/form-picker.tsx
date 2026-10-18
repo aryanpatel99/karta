@@ -6,7 +6,7 @@ import { cn } from "@/lib/utils";
 import { IconCheck, IconLoader } from "@tabler/icons-react";
 import Image from "next/image";
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import { ElementRef, useEffect, useRef, useState } from "react";
 import { useFormStatus } from "react-dom";
 import { FormError } from "./form-error";
 
@@ -73,6 +73,7 @@ export const FormPicker = ({
                             id={image.id}
                             className="hidden"
                             checked={selectedImg === image.id}
+                            readOnly
                             disabled={pending}
                             value={`${image.id}|${image.urls.thumb}|${image.urls.full}|${image.links.html}|${image.user.name}|${image.user.username}`}
                         />
