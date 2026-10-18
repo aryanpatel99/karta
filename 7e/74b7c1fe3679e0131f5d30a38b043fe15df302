@@ -1,0 +1,40 @@
+CONTEXT.md
+  s_2de50c14a0e389::t_2ba6dc1a4b5a86 1-66
+components/form/form-picker.tsx
+  s_2de50c14a0e389::t_74afe4f579a5a9 76
+  h_ccbfe03d15f891 9
+components/form/form-popover.tsx
+  h_ccbfe03d15f891 12-13,28-31,33,35-36
+  s_2de50c14a0e389::t_b0805a481410d3 60
+FLOW.md
+  s_2de50c14a0e389::t_a7705ef09f1715 5-18,40-51,55-91,106-112,114-120,130-148,158-171,208,230-251,253-258,260-261,263-292
+  s_2de50c14a0e389::t_d99b2a3d0587d6 113,252,259
+  s_2de50c14a0e389::t_2896719a111e0d 1-4,19-39,52-54,92-105,121-129,149-157,172-207,209-229,262,293
+src/prisma/db.ts
+  s_2de50c14a0e389::t_38550213729957 1
+package.json
+  s_2de50c14a0e389::t_bfd994f62a92ae 36
+package-lock.json
+  s_2de50c14a0e389::t_d02b68769fc444 29,22984-23005
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "7e74b7c1fe3679e0131f5d30a38b043fe15df302",
+  "prompts": {},
+  "humans": {
+    "h_ccbfe03d15f891": {
+      "author": "Aryan Patel <aryanpatel6215@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_2de50c14a0e389": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "46851428-f2a6-4e7f-bbcb-36760a386f51",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Aryan Patel <aryanpatel6215@gmail.com>"
+    }
+  }
+}
