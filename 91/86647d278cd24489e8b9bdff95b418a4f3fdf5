@@ -1,0 +1,21 @@
+app/(platform)/(dashboard)/_components/navbar.tsx
+  h_ccbfe03d15f891 6,18,21-25,27-28
+  h_ccbfe03d15f891 19-20,26
+app/(platform)/(dashboard)/organization/[organizationId]/_components/board-list.tsx
+  h_ccbfe03d15f891 5-7,10-12,14-23,34-43,61-75
+  h_ccbfe03d15f891 13,44,60
+app/(platform)/(dashboard)/organization/[organizationId]/page.tsx
+  h_ccbfe03d15f891 1,14-16
+  h_ccbfe03d15f891 10
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "9186647d278cd24489e8b9bdff95b418a4f3fdf5",
+  "prompts": {},
+  "humans": {
+    "h_ccbfe03d15f891": {
+      "author": "Aryan Patel <aryanpatel6215@gmail.com>"
+    }
+  }
+}
