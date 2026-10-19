@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button"
 import { OrganizationSwitcher, UserButton } from "@clerk/nextjs"
 import { IconPlus } from "@tabler/icons-react"
 import { MobileSidebar } from "./mobile-sidebar"
+import { FormPopover } from "@/components/form/form-popover"
 
 
 
@@ -14,12 +15,17 @@ export const Navbar = () => {
                 <div className="hidden md:block">
                 <Logo />
                 </div>
-                <Button className="rounded-sm hidden md:block px-2">
-                    Create
-                </Button>
-                <Button className="rounded-md block md:hidden" size="lg">
-                    <IconPlus/>
-                </Button>
+                <FormPopover side="bottom" align="start" sideOffset={18}>
+                    <Button className="rounded-sm hidden md:block px-2">
+                        Create
+                    </Button>
+                </FormPopover>
+                
+                <FormPopover>
+                    <Button className="rounded-md block md:hidden" size="lg">
+                        <IconPlus/>
+                    </Button>
+                </FormPopover>
             </div>
 
             <div className="ml-auto flex items-center gap-x-4">
