@@ -1,0 +1,69 @@
+actions/delete-board/types.ts
+  h_ccbfe03d15f891 1-7
+actions/update-board/types.ts
+  s_8561ea121d644a::t_6294aceb8f924e 1-7
+app/(platform)/(dashboard)/board/[boardId]/_components/board-navbar.tsx
+  s_8561ea121d644a::t_6294aceb8f924e 15
+  h_ccbfe03d15f891 1-14,16-22
+actions/delete-board/schema.ts
+  h_ccbfe03d15f891 1-7
+app/(platform)/(dashboard)/board/[boardId]/page.tsx
+  h_ccbfe03d15f891 1-9
+actions/update-board/index.ts
+  s_8561ea121d644a::t_4d30b04e887bc5 7-24,26-41
+  s_8561ea121d644a::t_6294aceb8f924e 25
+  s_8561ea121d644a::t_308b9afc398663 1-6
+app/(platform)/(dashboard)/board/[boardId]/layout.tsx
+  h_ccbfe03d15f891 1-8,10-15,17-30,32-40,42-60
+  s_8561ea121d644a::t_6294aceb8f924e 9,16,31,41
+app/(platform)/(dashboard)/board/[boardId]/_components/board-options.tsx
+  s_8561ea121d644a::t_a887b3d2708d2e 1-2
+  h_ccbfe03d15f891 3-48
+app/(platform)/(dashboard)/organization/[organizationId]/layout.tsx
+  h_ccbfe03d15f891 1,4-7,9,11-16,22
+  s_2de50c14a0e389::t_9c07683db2cfcf 8,10
+app/(platform)/(dashboard)/board/[boardId]/_components/board-title-form.tsx
+  s_8561ea121d644a::t_6294aceb8f924e 11
+  h_ccbfe03d15f891 1-10,12-31,33-49,54-72,74-85,87-89
+  s_8561ea121d644a::t_23c60af7ea4512 32
+  s_8561ea121d644a::t_4ea1c1745226b4 50-53
+  s_8561ea121d644a::t_9f7d7dc6ab046b 73
+  s_8561ea121d644a::t_16a3959237f8da 86
+actions/delete-board/index.ts
+  h_ccbfe03d15f891 1-41
+actions/update-board/schema.ts
+  h_ccbfe03d15f891 1-12
+package-lock.json
+  h_ccbfe03d15f891 22,41,959-965,977-983,9710-9716,11827-11833,16699-16701
+package.json
+  h_ccbfe03d15f891 29,48
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "71ab163870145d549f6c456cd92b7ade3d8f4094",
+  "prompts": {},
+  "humans": {
+    "h_ccbfe03d15f891": {
+      "author": "Aryan Patel <aryanpatel6215@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_2de50c14a0e389": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "46851428-f2a6-4e7f-bbcb-36760a386f51",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Aryan Patel <aryanpatel6215@gmail.com>"
+    },
+    "s_8561ea121d644a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "35bb1ec0-5394-490b-90b4-147718049c3a",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Aryan Patel <aryanpatel6215@gmail.com>"
+    }
+  }
+}
