@@ -1,0 +1,28 @@
+migrations/app/20261031T1126_baseline/migration.json
+  s_8561ea121d644a::t_7176006a3a5340 1-7
+migrations/app/20261031T1126_baseline/migration.ts
+  s_8561ea121d644a::t_719ca755297b66 1-113
+migrations/app/20261031T1126_baseline/ops.json
+  s_8561ea121d644a::t_fc57aa05fbc5cd 1-298
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "67f4f2916cd7dc6930a5a5a2087784ee1f9a163d",
+  "prompts": {},
+  "humans": {
+    "h_ccbfe03d15f891": {
+      "author": "Aryan Patel <aryanpatel6215@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_8561ea121d644a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "35bb1ec0-5394-490b-90b4-147718049c3a",
+        "model": "unknown"
+      },
+      "human_author": "Aryan Patel <aryanpatel6215@gmail.com>"
+    }
+  }
+}
