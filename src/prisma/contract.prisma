@@ -9,6 +9,40 @@ model Board {
   imageLinkHtml String
   imageUserName String
 
+  lists List[]
+
   createdAt     DateTime @default(now())
   updatedAt     temporal.updatedAtString()
+}
+
+model List {
+  id            String   @id @default(uuid())
+  title         String
+  boardId       String
+  order         Int
+
+  cards Card[]
+
+  board         Board    @relation(fields: [boardId], references: [id], onDelete: Cascade)
+
+  createdAt     DateTime @default(now())
+  updatedAt     temporal.updatedAtString()
+
+  @@index([boardId])
+}
+
+
+model Card {
+  id            String   @id @default(uuid())
+  listId        String
+  title         String
+  order         Int
+  description   String?  
+
+  
+
+  list          List     @relation(fields: [listId], references: [id], onDelete: Cascade)
+  createdAt     DateTime @default(now())
+  updatedAt     temporal.updatedAtString()
+  @@index([listId])
 }

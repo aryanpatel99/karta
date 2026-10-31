@@ -11,3 +11,5 @@ export const db = postgres<Contract>({
 
 export type Board = FieldOutputTypes['public']['Board'];
 
+export type List = FieldOutputTypes['public']['List'];
+export type Card = FieldOutputTypes['public']['Card'];
