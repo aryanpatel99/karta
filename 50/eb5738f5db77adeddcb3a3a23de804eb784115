@@ -1,0 +1,49 @@
+app/(platform)/(dashboard)/board/[boardId]/page.tsx
+  s_8561ea121d644a::t_a1230242312d19 3,7,9,19,23-30,41,52
+  h_ccbfe03d15f891 1-2,5-6,8,10-18,20,43,45
+  s_8561ea121d644a::t_1f1d0bdffc1c85 21-22,31-40
+  s_8561ea121d644a::t_2844be635cf56b 44,46-47
+  s_8561ea121d644a::t_075d15d7b5bd3c 4
+app/(platform)/(dashboard)/board/[boardId]/_components/list-form.tsx
+  h_ccbfe03d15f891 1-9
+types.ts
+  s_8561ea121d644a::t_76ec4190bd761e 1-9
+src/prisma/contract.prisma
+  h_ccbfe03d15f891 12-13,17-48
+app/(platform)/(dashboard)/board/[boardId]/_components/list-container.tsx
+  h_ccbfe03d15f891 1-2,4,6,8-10,12-17
+  s_8561ea121d644a::t_937708d0a6b801 3,5,7,11,18
+src/prisma/db.ts
+  s_8561ea121d644a::t_76ec4190bd761e 14-15
+migrations/app/refs/db.json
+  h_ccbfe03d15f891 2
+migrations/snapshots/700ecaf90652771aa75b9c02d6cf767aaf6b95fbdfe3c8b848c468ef0b5d3198/contract.d.ts
+  h_ccbfe03d15f891 1-885
+migrations/snapshots/700ecaf90652771aa75b9c02d6cf767aaf6b95fbdfe3c8b848c468ef0b5d3198/contract.json
+  h_ccbfe03d15f891 1
+src/prisma/contract.d.ts
+  h_ccbfe03d15f891 36,38,254-271,287-304,320-337,353-370,442,447,451-573,586-587,638-648,669-796,832-874
+src/prisma/contract.json
+  h_ccbfe03d15f891 10-17,92,97-113,150-348,411-427,435-464,467-495,501-559,562-566,568-574,582,585,598-664
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "50eb5738f5db77adeddcb3a3a23de804eb784115",
+  "prompts": {},
+  "humans": {
+    "h_ccbfe03d15f891": {
+      "author": "Aryan Patel <aryanpatel6215@gmail.com>"
+    }
+  },
+  "sessions": {
+    "s_8561ea121d644a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "35bb1ec0-5394-490b-90b4-147718049c3a",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Aryan Patel <aryanpatel6215@gmail.com>"
+    }
+  }
+}
